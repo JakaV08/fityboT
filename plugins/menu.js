@@ -15,12 +15,12 @@ _*Jadi tidak perlu beli kartu untuk mendapatkan nomor baru*_
 *Kurang paham?, Jika masih tidak paham tanya saja langsung ke saya*
 Klik https://wa.me/message/MKYNWO66LFYPL1`
 conn.sendHydrated(m.chat, str, wm, './media/ayang.jpg', 'https://Instagram.com/nan_sakrn', 'IG Owner', '085785694474', 'Nomor Owner', [
-['Donasi', '/donasi'], ['Owner', '/owner'], ['List Menu', '/m']
+['Donasi', '/donasi'], ['Owner', '/owner'], ['List Menu', '/menu']
 ], m)
 
 }
-handler.help = ['menu']
+handler.help = ['m']
 handler.tags = ['general']
-handler.command = /^(menu)$/i
+handler.command = /^(m)$/i
 
 export default handler
